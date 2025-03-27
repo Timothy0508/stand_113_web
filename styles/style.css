@@ -126,3 +126,24 @@ header a {
     align-items: center;
     margin: 20px;
 }
+
+.contact-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-list button {
+    border: solid 1px #ddd;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.contact-instagram:hover {
+    color: #fd296d;
+    border: solid 1px #fd296d;
+}
