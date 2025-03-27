@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  fetch("food_items.json")
+  fetch("../datas/food_items.json")
     .then((response) => response.json())
     .then((data) => {
       const foodItemsContainer = document.getElementById(

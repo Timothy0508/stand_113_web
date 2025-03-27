@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Delicious Burger",
+    "description": "Juicy beef patty with fresh toppings.",
+    "price": 5.0,
+    "image": "images/burger.jpg"
+  },
+  {
+    "name": "Crispy Fries",
+    "description": "Golden and perfectly salted fries.",
+    "price": 3.0,
+    "image": "images/fries.jpg"
+  },
+  {
+    "name": "Sweet Lemonade",
+    "description": "Refreshing homemade lemonade.",
+    "price": 2.5
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "description": "Warm and chewy chocolate chip cookies.",
+    "price": 1.5,
+    "image": "images/cookies.jpg"
+  }
+]
