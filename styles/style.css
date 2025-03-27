@@ -10,7 +10,7 @@ header {
     padding: 20px;
     padding-bottom: 0px;
     color: white;
-    background-color: #333;
+    background-color: rgb(9, 189, 36);
     text-align: start;
     position: relative;
     height: fit-content;
@@ -81,5 +81,16 @@ header {
 .food-item .price {
     font-weight: bold;
     color: #d9534f;
-    /* Example color */
+}
+
+.welcome {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcome p {
+    max-width: 300px;
 }
