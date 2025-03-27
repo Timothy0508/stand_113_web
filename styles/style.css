@@ -42,6 +42,11 @@ header a {
     padding: 20px;
 }
 
+header div img {
+    width: 25px;
+    height: auto;
+}
+
 .header-contact-button {
     border: solid 1px #ddd;
     background-color: transparent;
@@ -68,6 +73,13 @@ header a {
 
 .title {
     padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .intro {
