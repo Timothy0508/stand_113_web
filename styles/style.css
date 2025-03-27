@@ -10,13 +10,15 @@ header {
     padding: 20px;
     padding-bottom: 0px;
     color: white;
+    background-color: #333;
     text-align: start;
     position: relative;
-    background-image: url('../images/header_background.png');
-    height: 100vh;
-    max-height: 400px;
+    height: fit-content;
     display: flex;
     align-items: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 #food-menu {
@@ -32,9 +34,29 @@ header {
     margin-top: 20px;
 }
 
-.header-bar {
-    height: 100px;
-    background-color: aqua;
+.intro {
+    padding: 20px;
+    padding-bottom: 0px;
+    color: white;
+    text-align: start;
+    position: relative;
+    height: 100vh;
+    max-height: 400px;
+    display: flex;
+    align-items: flex-end;
+    background-image: url('../images/header_background.png');
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.about img {
+    width: 300px;
+    height: auto;
 }
 
 .food-item {
