@@ -2,14 +2,12 @@
   {
     "name": "Delicious Burger",
     "description": "Juicy beef patty with fresh toppings.",
-    "price": 5.0,
-    "image": "images/burger.jpg"
+    "price": 5.0
   },
   {
     "name": "Crispy Fries",
     "description": "Golden and perfectly salted fries.",
-    "price": 3.0,
-    "image": "images/fries.jpg"
+    "price": 3.0
   },
   {
     "name": "Sweet Lemonade",
@@ -19,7 +17,6 @@
   {
     "name": "Chocolate Chip Cookies",
     "description": "Warm and chewy chocolate chip cookies.",
-    "price": 1.5,
-    "image": "images/cookies.jpg"
+    "price": 1.5
   }
 ]
