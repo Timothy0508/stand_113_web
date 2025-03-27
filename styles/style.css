@@ -58,6 +58,11 @@ header div img {
     width: 150px;;
 }
 
+.header-contact-button:hover {
+    color: rgb(6, 125, 24);
+    background-color: white;
+}
+
 #food-menu {
     padding: 20px;
     text-align: center;
@@ -197,7 +202,7 @@ header div img {
 
 .contact-list button {
     border: solid 1px #ddd;
-    background-color: white;
+    background-color: transparent;
     padding: 10px;
     border-radius: 10px;
     cursor: pointer;
@@ -209,9 +214,21 @@ header div img {
     border: solid 1px #fd296d;
 }
 
+.contact-instagram:focus {
+    color: white;
+    border: solid 1px #fd296d;
+    background-color: #fd296d;
+}
+
 .contact-threads:hover {
     color: #1b1b1b;
     border: solid 1px #1b1b1b;
+}
+
+.contact-threads:focus {
+    color: white;
+    border: solid 1px #1b1b1b;
+    background-color: #1b1b1b;
 }
 
 @media (max-width: 768px) {
