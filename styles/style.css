@@ -55,7 +55,7 @@ header div img {
     cursor: pointer;
     transition-duration: 0.4s;
     color: white;
-    width: 150px;;
+    width: 150px;
 }
 
 .header-contact-button:hover {
@@ -117,6 +117,12 @@ header div img {
     cursor: pointer;
     transition-duration: 0.4s;
     color: white;
+}
+
+.header-button:hover {
+    color: white;
+    background-color: rgb(6, 125, 24);
+    border-color: rgb(6, 125, 24);
 }
 
 .about {
