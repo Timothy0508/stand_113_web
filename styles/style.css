@@ -253,7 +253,8 @@ header div img {
     }
 
     .welcome-body {
-        width: 100%;
+        width: 90%;
+        height: fit-content;
         justify-content: start;
     }
 
