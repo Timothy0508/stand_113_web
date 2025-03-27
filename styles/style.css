@@ -7,17 +7,16 @@ body {
 }
 
 header {
-    background-color: #5cb85c;
-    /* Example color */
-    color: white;
     padding: 20px;
-    text-align: center;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
+    padding-bottom: 0px;
+    color: white;
+    text-align: start;
+    position: relative;
+    background-image: url('../images/header_background.png');
+    height: 100vh;
+    max-height: 400px;
+    display: flex;
+    align-items: flex-end;
 }
 
 #food-menu {
@@ -31,6 +30,11 @@ img {
     /* Responsive grid */
     gap: 20px;
     margin-top: 20px;
+}
+
+.header-bar {
+    height: 100px;
+    background-color: aqua;
 }
 
 .food-item {
