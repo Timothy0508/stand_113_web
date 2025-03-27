@@ -137,6 +137,14 @@ header div img {
     padding: 15px;
     border-radius: 8px;
     text-align: left;
+    transition-duration: 0.4s;
+}
+
+.food-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    transform: scale(1.02);
+    border-color: rgb(6, 125, 24);
 }
 
 .food-item h3 {
