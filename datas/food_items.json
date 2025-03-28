@@ -1,22 +1,22 @@
 [
   {
-    "name": "Delicious Burger",
-    "description": "Juicy beef patty with fresh toppings.",
+    "name": "飲品",
+    "description": "Description",
     "price": 5.0
   },
   {
-    "name": "Crispy Fries",
-    "description": "Golden and perfectly salted fries.",
+    "name": "冰品",
+    "description": "Description",
     "price": 3.0
   },
   {
-    "name": "Sweet Lemonade",
-    "description": "Refreshing homemade lemonade.",
+    "name": "炒泡麵",
+    "description": "Description",
     "price": 2.5
   },
   {
-    "name": "Chocolate Chip Cookies",
-    "description": "Warm and chewy chocolate chip cookies.",
+    "name": "脆薯",
+    "description": "Golden and perfectly salted fries.",
     "price": 1.5
   }
 ]
