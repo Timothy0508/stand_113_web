@@ -40,7 +40,7 @@ header a {
     color: white;
     text-decoration: none;
     margin: 20px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 header div img {
@@ -107,7 +107,7 @@ header div img {
     margin: 20px;
     margin-left: 0px;
     padding-left: 0px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .header-button {
@@ -226,7 +226,7 @@ header div img {
 
 .contact-list a {
     margin: 10px;
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .contact-instagram:hover {
