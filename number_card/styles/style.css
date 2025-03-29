@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.card {
+    width: 70vw;
+    height: 70vh;
+    border-radius: 10px;
+    border: #333 solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    vertical-align: middle;
+    align-items: center;
+    color: black;
+    transition-duration: 0.4s;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px #4CAF50;
+    transform: scale(1.02);
+}
+
+.card-header {
+    background-color: #4CAF50;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    vertical-align: middle;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.card-body p {
+    margin: 0;
+    padding: 5px;
+    font-size: 3em;
+}
+
+#export-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+    width: 70vw;
+}
+
+#export-button:hover {
+    background-color: #45a049;
+}
